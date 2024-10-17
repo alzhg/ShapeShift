@@ -1,14 +1,4 @@
 <main>
-    <section>
-      <h1>CodeShare</h1>
-  
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-        temporibus itaque expedita deleniti vel sint, doloremque quia ipsum illum,
-        fugit laborum nisi minus porro est libero minima omnis blanditiis!
-        Incidunt?
-      </p>
-    </section>
   
     <article>
       <slot />
