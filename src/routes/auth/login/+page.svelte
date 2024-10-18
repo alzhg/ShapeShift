@@ -21,16 +21,14 @@
 </svelte:head>
 
 <!--login page template-->
-<div class="flex justify-between items-center min-h-screen bg-gray-50">
+<div class="flex justify-between items-center min-h-screen">
   <!-- Left Column for Title and Slogan -->
   <div class="flex flex-col ml-40 mb-20 justify-center items-center max-w-xl">
     <h1 class="text-6xl font-bold text-black">ShapeShift</h1>
     <div class="text-left ml-0"> 
-      <p class="text-xl mt-4 italic text-gray-700">Where fitness fuels community. Shape your goals, Shift your life.</p>
-      <p class="text-xl text-gray-700">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.
-      </p>
+      <p class="text-xl mt-4 italic text-black">Where fitness fuels community. Shape your goals, Shift your life.</p>
+      <p class="text-xl text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
     </div>
   </div>
 
@@ -42,7 +40,7 @@
         await update({ reset: false, invalidateAll: true });
       };
     }}
-    class="flex flex-col mr-44 bg-white p-6 rounded-lg shadow-md w-96 h-auto border border-gray-300"
+    class="flex flex-col bg-white p-6 rounded-lg shadow-md w-96 h-auto border border-gray-300 mx-8"
   >
     <!-- Email Field -->
     <div class="flex flex-col shadow-sm border border-black rounded-md">
@@ -99,14 +97,11 @@
     </div>
 
     <!-- Create Account Button -->
-    <a href="/auth/create-account">
-      <button 
-        type="button" 
-        class="bg-shapeshift-light-blue text-white rounded-md mt-4 p-2 border border-black hover:bg-shapeshift-dark-blue"
-      >
-        Create Account
-      </button>
-    </a>
+    <div class="flex justify-center mt-4">
+      <a href="/auth/create-account">
+        <button type="button" class="bg-shapeshift-light-blue rounded-md p-2 border border-black">Create Account</button>
+      </a>
+    </div>
   </form>
 </div>
 
