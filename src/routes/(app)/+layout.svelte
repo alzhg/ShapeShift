@@ -17,8 +17,8 @@
     <aside>
       <div class="top">
         <a href="/">
-          <h1 class="md-show">CodeShare</h1>
-          <h1 class="md-hide">CS</h1>
+          <h1 class="md-show">ShapeShift</h1>
+          <h1 class="md-hide">SS</h1>
         </a>
   
         <hr />

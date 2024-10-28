@@ -1,18 +1,30 @@
-# create-svelte
+# ShapeShift
+This project combines Svelte for the frontend with PocketBase as a backend database. It provides a minimal setup to get started quickly.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Steps to Duplicate
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
+First, run the following command to clone the repository.
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
+git clone https://github.com/pandapog123/Create-A-Programmer-Social-Media-using-SvelteKit-and-PocketBase.git
 
-# create a new project in my-app
-npm create svelte@latest my-app
+cd ShapeShift
 ```
+
+## Dependencies
+
+Once you've set up the svelte project on your computer, install the following dependecies with `npm install`:
+```bash
+npm install pocketbase highlight.js iconify-icon
+
+npm i --save-dev @types/highlight.js
+```
+
+Go to the [PocketBase docs](https://pocketbase.io/docs/) and download the zip file for your specific operating system.
+
+Once you have extracted the files, copy the extracted folder into your SvelteKit and rename it to pocketbase
+
+Open the pocketbase folder that you just created and run ./pocketbase serve. Open the Admin UI link and create a new account
 
 ## Developing
 
@@ -23,6 +35,13 @@ npm run dev
 
 # or start the server and open the app in a new browser tab
 npm run dev -- --open
+```
+Then open another terminal and run
+
+```bash
+cd pocketbase
+
+./pocketbase serve
 ```
 
 ## Building

@@ -6,7 +6,7 @@
   </script>
   
   <svelte:head>
-    <title>Home - CS</title>
+    <title>Home - ShapeShift</title>
   </svelte:head>
   
   <div class="container">
@@ -25,10 +25,6 @@
         {/each}
       {/await}
     {/if}
-  </div>
-
-  <div class="p-4 bg-blue-500 text-white">
-    Tailwind is now working!
   </div>
   
   <style>
