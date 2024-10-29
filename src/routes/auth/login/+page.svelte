@@ -49,7 +49,7 @@
         id="email" 
         name="email"
         bind:value={email} 
-        placeholder="Username" 
+        placeholder="Email" 
         required 
         class="bg-shapeshift-light-green rounded-md h-10 px-2 text-black"
       />
