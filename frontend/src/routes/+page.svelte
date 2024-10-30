@@ -3,7 +3,7 @@
   let password = '';
 
   const handleLogin = () => {
-    // Add login logic here
+    // Add login logic here 
     console.log("Email:", email);
     console.log("Password:", password);
   };
@@ -17,7 +17,7 @@
 <div class="flex flex-col ml-40 mb-20 justify-center items-center max-w-xl">
   <h1 class="text-6xl font-bold">ShapeShift</h1>
   <div class="text-left ml-0"> 
-    <p class="text-xl mt-4 italic">Where fitness fuels community. Shape your goals, Shift your life.</p>
+    <p class="text-xl mt-4 italic"> Where fitness fuels community. Shape your goals, Shift your life. </p>
     <p class="text-xl ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
   </div>
