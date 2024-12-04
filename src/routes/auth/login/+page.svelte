@@ -21,13 +21,13 @@
 </svelte:head>
 
 <!--login page template-->
-<div class="flex justify-between items-center min-h-screen">
+<div class="flex justify-between items-center min-h-screen bg-bg-shapeshift-grey">
   <!-- Left Column for Title and Slogan -->
   <div class="flex flex-col ml-40 mb-20 justify-center items-center max-w-xl">
-    <h1 class="text-6xl font-bold text-black">ShapeShift</h1>
+    <h1 class="text-6xl font-bold">ShapeShift</h1>
     <div class="text-left ml-0"> 
-      <p class="text-xl mt-4 italic text-black">Where fitness fuels community. Shape your goals, Shift your life.</p>
-      <p class="text-xl text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      <p class="text-xl mt-4 italic"> Where fitness fuels community. Shape your goals, Shift your life. </p>
+      <p class="text-xl ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
     </div>
   </div>
@@ -82,12 +82,7 @@
     </button>
 
     <!-- Forgot Password button -->
-    <button 
-      class="text-sm text-center mt-4 underline text-shapeshift-dark-blue"
-      type="button"
-    >
-      Forgot Password?
-    </button>
+    <button class="text-sm text-center mt-4 underline">Forgot Password?</button>
 
     <!-- Black Line with Centered Text -->
     <div class="relative my-4 flex items-center">

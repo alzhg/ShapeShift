@@ -20,7 +20,7 @@ npm install pocketbase highlight.js iconify-icon
 npm i --save-dev @types/highlight.js
 ```
 
-Go to the [PocketBase docs](https://pocketbase.io/docs/) and download the zip file for your specific operating system.
+Go to the [PocketBase docs](https://pocketbase.io/docs/) and download the zip file for your specific operating system. If yout have issues with pocketbase download the v0.21.0 version.
 
 Once you have extracted the files, copy the extracted folder into your SvelteKit and rename it to pocketbase
 

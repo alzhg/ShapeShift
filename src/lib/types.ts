@@ -21,6 +21,7 @@ export type User = {
     likes: string[];
     user: User;
     language: string;
+    photo: string;
   };
   
   export function validatePost(data: any): data is Post {
