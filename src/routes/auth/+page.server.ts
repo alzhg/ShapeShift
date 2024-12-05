@@ -1,0 +1,9 @@
+import { redirect } from "@sveltejs/kit";
+import type { PageServerLoad } from "./$types";
+
+export const load = (async ({ url }) => {
+  // Redirect only if the user is on /auth
+  if (url.pathname === "/auth") {
+    throw redirect(303, "/auth/create-account");
+  }
+}) satisfies PageServerLoad;
