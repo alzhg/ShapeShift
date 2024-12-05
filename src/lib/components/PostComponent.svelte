@@ -186,6 +186,17 @@
     object-fit: cover;
   }
 
+    /* Style for profile picture only */
+  .account img {
+    max-width: 50px;  /* Limit the maximum width of the profile picture */
+    max-height: 50px; /* Limit the maximum height of the profile picture */
+    width: 100%;       /* Ensure the image scales responsively */
+    height: 100%;      /* Maintain aspect ratio */
+    border-radius: 50%; /* Keep the profile image rounded */
+    object-fit: cover; /* Ensure the image covers the area */
+  }
+
+
   .account iconify-icon {
     font-size: 32px;
   }

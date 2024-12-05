@@ -30,7 +30,7 @@
               <span> Home </span>
             </div>
           </Link>
-  
+        
           {#if data.authenticated}
             <Link href="/profiles" variant="ghost" align="left">
               <div class="link-content">
@@ -45,28 +45,41 @@
                 <span> Profile </span>
               </div>
             </Link>
-  
+        
             <Link href="/settings" variant="ghost">
               <div class="link-content">
                 <iconify-icon icon="material-symbols:settings"></iconify-icon>
                 <span> Settings </span>
               </div>
             </Link>
+        
+            <!-- Resources Button -->
+            <Link href="/search" variant="ghost">
+              <div class="link-content">
+                <iconify-icon icon="mdi:book-open-page-variant"></iconify-icon>
+                <span> Resources </span>
+              </div>
+            </Link>
           {/if}
         </section>
-  
+        
         <section class="links icons">
           <Link href="/" variant="ghost" size="icon">
             <iconify-icon icon="octicon:home-fill-24"></iconify-icon>
           </Link>
-  
+        
           {#if data.authenticated}
             <Link href="/profiles" variant="ghost" size="icon">
               <iconify-icon icon="ic:baseline-account-circle"></iconify-icon>
             </Link>
-  
+        
             <Link href="/settings" variant="ghost" size="icon">
               <iconify-icon icon="material-symbols:settings"></iconify-icon>
+            </Link>
+        
+            <!-- Icon for Resources -->
+            <Link href="/search" variant="ghost" size="icon">
+              <iconify-icon icon="mdi:book-open-page-variant"></iconify-icon>
             </Link>
           {/if}
         </section>

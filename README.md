@@ -22,9 +22,15 @@ npm i --save-dev @types/highlight.js
 
 Go to the [PocketBase docs](https://pocketbase.io/docs/) and download the zip file for your specific operating system. If yout have issues with pocketbase download the v0.21.0 version.
 
-Once you have extracted the files, copy the extracted folder into your SvelteKit and rename it to pocketbase
+Once you have extracted the files, copy the extracted folder into your SvelteKit and rename it to pocketbase (you can replace the current pocketbase folder or just keep the current one).
 
 Open the pocketbase folder that you just created and run ./pocketbase serve. Open the Admin UI link and create a new account
+
+You will also want to create a .env file where you will store your pocketbase email and password in the following format:
+```
+POCKETBASE_PRIVATE_EMAIL="johndoe@gmail.com"
+POCKETBASE_PRIVATE_PASSWORD="Johndoe18"
+```
 
 ## Developing
 

@@ -24,6 +24,8 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"axios": "^1.7.9",
+		"express": "^4.21.1",
 		"highlight.js": "^11.9.0",
 		"iconify-icon": "^1.0.8",
 		"pocketbase": "^0.21.0"
