@@ -14,12 +14,11 @@
   }
 
   article {
-    width: 100%; /* Ensure article takes full width */
-    height: 100%; /* Ensure article takes full height */
+    width: 100%; /* Article takes full width */
+    height: 100%; /* EArticle takes full height */
     display: flex;
     justify-content: center; /* Center content inside the article */
     align-items: center; /* Center content vertically */
   }
 
-  /* Other styles remain unchanged */
 </style>
