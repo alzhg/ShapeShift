@@ -6,7 +6,7 @@ This project combines Svelte for the frontend with PocketBase as a backend datab
 First, run the following command to clone the repository.
 
 ```bash
-https://github.com/alzhg/ShapeShift.git
+git clone https://github.com/alzhg/ShapeShift.git
 
 cd ShapeShift
 ```
