@@ -50,6 +50,12 @@ cd pocketbase
 ./pocketbase serve
 ```
 
+Then open another terminal and run
+
+```bash
+node server.js
+```
+
 ## Building
 
 To create a production version of your app:
