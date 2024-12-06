@@ -6,7 +6,7 @@ This project combines Svelte for the frontend with PocketBase as a backend datab
 First, run the following command to clone the repository.
 
 ```bash
-git clone https://github.com/pandapog123/Create-A-Programmer-Social-Media-using-SvelteKit-and-PocketBase.git
+https://github.com/alzhg/ShapeShift.git
 
 cd ShapeShift
 ```
